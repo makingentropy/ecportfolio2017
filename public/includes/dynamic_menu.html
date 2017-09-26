@@ -1,1 +1,21 @@
-The websites I've created will show here
+<div ng-if="ctrl.displayIncludes='includes/dynamic_menu.html'">
+  <div ng-if="ctrl.displayIncludes=='includes/dynamic_menu.html'" id="menu">
+    <!-- <div ng-include="'includes/dynamic_example_game.html'"></div>
+    <div ng-include="'includes/dynamic_example_seedtrader.html'"></div>
+    <div ng-include="'includes/dynamic_example_choicevip.html'"></div>
+    <div ng-include="'includes/dynamic_example_elderHelper.html'"></div>
+    <div ng-include="'includes/dynamic_example_flowtracker.html'"></div> -->
+    menuShowing: {{ctrl.menuShowing}}<br>
+    <div ng-include src="ctrl.menuShowing"></div><br>
+    menudisplay test: {{ctrl.menuDisplaysNum}}
+    arrExamples[n]: {{ctrl.arrExamples[ctrl.menuDisplaysNum]}}
+
+  </div>
+  <div id="menuController">
+    <!-- LEFT ARROW: -->
+    <div><span ng-click="ctrl.menuSelection('L')">  &#9664;</span></div>
+    <!-- RIGHT ARROW: -->
+    <div><span ng-click="ctrl.menuSelection('R')">	&#9654;</span></div>
+
+  </div>
+</div>
