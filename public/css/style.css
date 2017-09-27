@@ -1,8 +1,35 @@
 body{
   display: flex;
+  flex-direction: column;
 }
 #menu{
   width:80%;
-
   border: 1px solid #777777;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#navvy{
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height:3em;
+  width:calc(100%);
+  border: 1px solid #777777;
+}
+.center_h{
+  -webkit-align-items: center;
+  align-items: center;
+  align-content: center;
+}
+.flexBodyLevel{
+
+}
+.navItem{
+  flex-grow: 1;
+}
+.separator{
+  width:100%;
+  height:0.5em;
+  background-color: #000;
 }
