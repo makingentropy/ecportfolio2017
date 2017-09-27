@@ -1,31 +1,65 @@
 body{
   display: flex;
   flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+iframe{
+  height: 750px;
+  width:450px;
 }
 #menu{
-  width:80%;
+  height:700px;
+  width:500px;
   border: 1px solid #777777;
   -webkit-align-items: center;
   align-items: center;
 }
-#navvy{
+#menuController{
   display: inline-flex;
+  -webkit-align-content: center;
+  align-content: center;
   -webkit-align-items: center;
   align-items: center;
   justify-content: space-evenly;
   height:3em;
-  width:calc(100%);
+  width:100%;
+}
+#navvy{
+  display: inline-flex;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height:3em;
+  width:100%;
   border: 1px solid #777777;
 }
 .center_h{
   -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   align-content: center;
+}
+.examplebox{
+  border:1px solid black;
+  height:90%;
+  width:100%;
 }
 .flexBodyLevel{
 
 }
+.menuCntrlBtn{
+  text-align: center;
+  flex-grow: 1;
+}
+.menuCntrlBtn_appearance{
+  font-size: 3em;
+}
 .navItem{
+  text-align: center;
   flex-grow: 1;
 }
 .separator{

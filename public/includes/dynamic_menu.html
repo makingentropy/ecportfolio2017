@@ -1,13 +1,13 @@
 <div ng-if="ctrl.displayIncludes=='includes/dynamic_menu.html'" id="menu">
   <!-- menuShowing: {{ctrl.menuShowing}}<br> -->
-  <div ng-include src="ctrl.menuShowing"></div><br>
+  <div class="examplebox" ng-include src="ctrl.menuShowing"></div><br>
   <!-- menudisplay test: {{ctrl.menuDisplaysNum}}
   arrExamples[n]: {{ctrl.arrExamples[ctrl.menuDisplaysNum]}} -->
 
   <div id="menuController">
     <!-- LEFT ARROW: -->
-    <div><span ng-click="ctrl.menuSelection('L')">  &#9664;</span></div>
+    <div class='menuCntrlBtn'><span class="menuCntrlBtn_appearance" ng-click="ctrl.menuSelection('L')">  &#9664;</span></div>
     <!-- RIGHT ARROW: -->
-    <div><span ng-click="ctrl.menuSelection('R')">	&#9654;</span></div>
+    <div class='menuCntrlBtn'><span class="menuCntrlBtn_appearance" ng-click="ctrl.menuSelection('R')">	&#9654;</span></div>
   </div>
 </div>
