@@ -59,6 +59,8 @@ iframe{
   font-size: 3em;
 }
 .navItem{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3em;
   text-align: center;
   flex-grow: 1;
 }
