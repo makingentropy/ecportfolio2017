@@ -23,4 +23,4 @@ Ohhhh no.  It is
 ```<div ng-include src="ctrl.value">```
 
 I fought with this for so long, trying different things before looking it up.
-Weird
+Weird.
