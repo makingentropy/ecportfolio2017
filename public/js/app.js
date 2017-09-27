@@ -6,7 +6,7 @@ app.controller("appjsController", ['$http', function($http){
   this.displayIncludes="";
 //////////////////////////////////////// MENU:
   this.menuDisplaysNum=2; //start on flowtracker
-  this.arrExamples=['includes/dynamic_example_choicevip.html', 'includes/dynamic_example_elderHelper.html', 'includes/dynamic_example_flowtracker.html', 'includes/dynamic_example_game.html', 'includes/dynamic_example_seedtrader.html'];
+  this.arrExamples=['includes/dynamic_example_choicevip.html', 'includes/dynamic_example_elderHelper.html', 'includes/dynamic_example_SiteList.html', 'includes/dynamic_example_flowtracker.html', 'includes/dynamic_example_game.html', 'includes/dynamic_example_seedtrader.html'];
   this.menuShowing=this.arrExamples[this.menuDisplaysNum];
   this.menuSelection=(direction)=>{
     var length=controller.arrExamples.length;

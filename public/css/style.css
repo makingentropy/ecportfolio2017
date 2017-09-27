@@ -80,6 +80,11 @@ iframe{
   font-size: 3em;
   color: #369fff;
 }
+.menuLinks{
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: center;
+}
 .navItem{
   font-family: 'Nothing You Could Do', cursive;
   font-size: 3em;
