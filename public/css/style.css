@@ -3,15 +3,23 @@ body{
   flex-direction: column;
   -webkit-align-items: center;
   align-items: center;
+  background: url(../images/cut_SurfingLA_ec1920.jpg);
+  font-family: Arial;
 }
 iframe{
   height: 750px;
   width:450px;
 }
-#menu{
+#bio{
   height:700px;
   width:500px;
-  border: 1px solid #777777;
+  font-siz:2em;
+  font-family: 'Architects Daughter', cursive;
+}
+#menu{
+  height:675px;
+  width:500px;
+  /*border: 1px solid #777777;*/
   -webkit-align-items: center;
   align-items: center;
 }
@@ -32,9 +40,20 @@ iframe{
   -webkit-align-items: center;
   align-items: center;
   justify-content: space-evenly;
-  height:3em;
+  height:6.5em;
   width:100%;
   border: 1px solid #777777;
+}
+#pageTitle{
+  display: inline-flex;
+  justify-content: space-evenly;
+  width:100%;
+}
+#pageTitle_text{
+  color: #9478ae;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
 }
 .center_h{
   -webkit-align-items: center;
@@ -47,16 +66,19 @@ iframe{
   border:1px solid black;
   height:90%;
   width:100%;
+  font-family: 'Architects Daughter', cursive;
 }
 .flexBodyLevel{
 
 }
 .menuCntrlBtn{
+  height:5em;
   text-align: center;
   flex-grow: 1;
 }
 .menuCntrlBtn_appearance{
   font-size: 3em;
+  color: #369fff;
 }
 .navItem{
   font-family: 'Nothing You Could Do', cursive;
